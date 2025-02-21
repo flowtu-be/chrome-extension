@@ -8,10 +8,10 @@ Secure Webflow-to-GitHub Automator. Export your code in the Designer and let Flo
 
 ### Features
 ✔️ Instant Webflow .zip downloads detection  
-✔️ Support for multiple connections
+✔️ Support for multiple connections  
 ✔️ Custom commit message  
 ✔️ Set GitHub repository branch  
-✔️ Include/exclude file types (JS, CSS, HTML, images, fonts) and set their target path
+✔️ Include/exclude file types (JS, CSS, HTML, images, fonts) and set their target path  
 ✔️ Secure GitHub integration over HTTPS  
 ✔️ Encrypted token handling - plaintext never leaves your device  
 ✔️ Real-time status updates
