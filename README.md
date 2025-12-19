@@ -41,12 +41,9 @@ Secure Webflow-to-GitHub Automator. Export your code in the Designer and let Flo
 
 ### Links
 
-💡 [Feedback](https://github.com/flowtu-be/chrome-extension/issues)
-
-📋 [Changelog](https://flowtu.be/changelog)
-
-⚙️ flowtu.be/how-to-use  
-📋 flowtu.be/changelog  
+💡 [Feedback](https://github.com/flowtu-be/chrome-extension/issues)  
+⚙️ [How To Use](https://flowtu.be/how-to-use)  
+📋 [Changelog](https://flowtu.be/changelog)  
 ✉️ hello@flowtu.be
 
 ### —
