@@ -11,39 +11,47 @@ Secure Webflow-to-GitHub Automator. Export your code in the Designer and let Flo
 ✔️ Support for multiple connections  
 ✔️ Custom commit message  
 ✔️ Set GitHub repository branch  
-✔️ Include/exclude file types (JS, CSS, HTML, images, fonts) and set their target path  
+✔️ Include/exclude all file types (JS, CSS, HTML, images, videos, documents, fonts) and set their target path  
+✔️ Exclude selected files (e.g. style-guide.html, 401.html)  
+✔️ Exclude selected directories (e.g. /test, /internal)  
+✔️ Auto-generate robots.txt with customizable content  
+✔️ Auto-generate sitemap.xml based on your pages (customizable)  
+✔️ Generate Cloudflare Workers files (optional)  
+✔️ Compatible with modern frameworks (Next.js, Nuxt, Vue, Astro, and more)  
 ✔️ Secure GitHub integration over HTTPS  
 ✔️ Encrypted token handling - plaintext never leaves your device  
-✔️ Real-time status updates
+✔️ Live upload status updates
 
-### How It Works
-1. Create a GitHub Personal Access Token (with 'contents' permission)
-2. "From" — Provide your Webflow Designer URL
-3. "To" — Add GitHub repository details (owner/repository-name)
-4. Configure Files & Paths (optional)
-5. Set default commit message (optional)
-6. Export from Webflow - FlowTube handles the deployment
+### Quick Setup
+1. Generate a GitHub token with Repository permission "Contents" (read/write) scope in Settings → Developer settings → Personal access tokens → Fine-grained tokens
+2. Webflow subdomain: Your site's subdomain (e.g. "site-name" from "site-name.webflow.io")
+3. GitHub project: The target repository (e.g. "username/repository")
+4. Configure Build Settings (optional - see features above)
+8. Add your site connection
 
 ### Ideal For
 → Webflow designers managing client projects  
-→ Developers building CI/CD pipelines  
+→ Developers building CI/CD pipelines with Cloudflare Workers
 → Teams requiring secure Webflow-to-GitHub synchronization  
-→ Anyone who wants to self-host their Webflow projects
+→ Anyone who wants to self-host their Webflow sites
+→ Sites needing automated SEO files (robots.txt, sitemap.xml)
 
-**FlowTube is not affiliated with Webflow or GitHub*
+**FlowTube is not affiliated with Webflow or GitHub*  
+**You need a Webflow subscription plan to access code exports*
 
 ### Links
 
 💡 [Feedback](https://github.com/flowtu-be/chrome-extension/issues)
 
-🟢 [Roadmap](https://github.com/orgs/flowtu-be/projects/1)
-
 📋 [Changelog](https://flowtu.be/changelog)
 
-💬 hello@flowtu.be
+⚙️ flowtu.be/how-to-use  
+📋 flowtu.be/changelog  
+✉️ hello@flowtu.be
 
 ### —
 
-Creator: [silso](https://sil.so) (Silvan Soeters) @sildotso
+Creator: [Silso](https://sil.so) / Silvan Soeters
 
+Support development ☕  
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M11AXHXH)
